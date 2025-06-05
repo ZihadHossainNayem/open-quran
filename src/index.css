@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Scheherazade+New:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-gray-950 text-gray-50 font-sans antialiased;
+    font-family: "Inter", system-ui, sans-serif;
+  }
+
+  .arabic {
+    font-family: "Scheherazade New", serif;
+    @apply text-right leading-loose;
+    direction: rtl;
+  }
+}
